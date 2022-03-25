@@ -1,2 +1,9 @@
+[mywebservers]
 172.31.16.73
+172.31.46.135
+
+[myubuntservers]
+172.31.16.73
+
+[myredhatservers]
 172.31.46.135
