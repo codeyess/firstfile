@@ -13,6 +13,7 @@
       name: "{{mywebpackforubuntu}}"
       state: present
     when: ansible_os_family =="Debian"
+    ignore_errors: yes
 
   - name: i want to start websever on ansible RedHat nodes
     yum:
